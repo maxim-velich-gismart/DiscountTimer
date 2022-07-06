@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516A8D612875BB6700837B82 /* AcceptedOfferPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8D602875BB6700837B82 /* AcceptedOfferPopup.swift */; };
+		51985B6A2874D54B003795CD /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51985B692874D54B003795CD /* TimeConversion.swift */; };
+		51E29147286CB893000EAB7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E29146286CB893000EAB7F /* AppDelegate.swift */; };
+		51E29149286CB893000EAB7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E29148286CB893000EAB7F /* SceneDelegate.swift */; };
+		51E2914B286CB893000EAB7F /* DiscountOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2914A286CB893000EAB7F /* DiscountOfferViewController.swift */; };
+		51E2914E286CB893000EAB7F /* DiscountOfferViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E2914C286CB893000EAB7F /* DiscountOfferViewController.storyboard */; };
+		51E29150286CB897000EAB7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E2914F286CB897000EAB7F /* Assets.xcassets */; };
+		51E29153286CB897000EAB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E29151286CB897000EAB7F /* LaunchScreen.storyboard */; };
+		51E931F0286F11AD00FAA0DB /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E931EF286F11AD00FAA0DB /* DeviceSize.swift */; };
+		51E931F4287096CF00FAA0DB /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E931F3287096CF00FAA0DB /* TimerView.swift */; };
+		51E931F72870971100FAA0DB /* TimerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51E931F62870971100FAA0DB /* TimerView.xib */; };
+		5752B06F90F198FCEAD6522B /* libPods-Discount Timer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9C8BEA81136EFE5876B282 /* libPods-Discount Timer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C5F58451AC8E786F5BD8064 /* Pods-Discount Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discount Timer.release.xcconfig"; path = "Target Support Files/Pods-Discount Timer/Pods-Discount Timer.release.xcconfig"; sourceTree = "<group>"; };
+		516A8D602875BB6700837B82 /* AcceptedOfferPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedOfferPopup.swift; sourceTree = "<group>"; };
+		51985B692874D54B003795CD /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
+		51E29143286CB893000EAB7F /* Discount Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discount Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E29146286CB893000EAB7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51E29148286CB893000EAB7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51E2914A286CB893000EAB7F /* DiscountOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountOfferViewController.swift; sourceTree = "<group>"; };
+		51E2914D286CB893000EAB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DiscountOfferViewController.storyboard; sourceTree = "<group>"; };
+		51E2914F286CB897000EAB7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51E29152286CB897000EAB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51E29154286CB897000EAB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E931EF286F11AD00FAA0DB /* DeviceSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
+		51E931F3287096CF00FAA0DB /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		51E931F62870971100FAA0DB /* TimerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerView.xib; sourceTree = "<group>"; };
+		54856ABE156DBAF9B6697F42 /* Pods-Discount Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discount Timer.debug.xcconfig"; path = "Target Support Files/Pods-Discount Timer/Pods-Discount Timer.debug.xcconfig"; sourceTree = "<group>"; };
+		6B9C8BEA81136EFE5876B282 /* libPods-Discount Timer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Discount Timer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51E29140286CB893000EAB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5752B06F90F198FCEAD6522B /* libPods-Discount Timer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401A832385561EB055E1FCAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B9C8BEA81136EFE5876B282 /* libPods-Discount Timer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		516A8D5D2875867900837B82 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				51985B692874D54B003795CD /* TimeConversion.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		51830348286CBD6300CE9361 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				51E29146286CB893000EAB7F /* AppDelegate.swift */,
+				51E29148286CB893000EAB7F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		51830349286CBD6C00CE9361 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				51E931F828718C0D00FAA0DB /* AcceptedOfferPopup */,
+				51E931F5287096E400FAA0DB /* TimerView */,
+				5183034D286D004A00CE9361 /* DiscountOffer */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5183034A286CBD8300CE9361 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51E2914F286CB897000EAB7F /* Assets.xcassets */,
+				51E29151286CB897000EAB7F /* LaunchScreen.storyboard */,
+				51E29154286CB897000EAB7F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5183034C286D004400CE9361 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				51E931EF286F11AD00FAA0DB /* DeviceSize.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5183034D286D004A00CE9361 /* DiscountOffer */ = {
+			isa = PBXGroup;
+			children = (
+				51E2914A286CB893000EAB7F /* DiscountOfferViewController.swift */,
+				51E2914C286CB893000EAB7F /* DiscountOfferViewController.storyboard */,
+			);
+			path = DiscountOffer;
+			sourceTree = "<group>";
+		};
+		51E2913A286CB893000EAB7F = {
+			isa = PBXGroup;
+			children = (
+				51E29145286CB893000EAB7F /* Discount Timer */,
+				51E29144286CB893000EAB7F /* Products */,
+				811DB0B6770353B01BA7B3E0 /* Pods */,
+				401A832385561EB055E1FCAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51E29144286CB893000EAB7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51E29143286CB893000EAB7F /* Discount Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51E29145286CB893000EAB7F /* Discount Timer */ = {
+			isa = PBXGroup;
+			children = (
+				51830348286CBD6300CE9361 /* Application */,
+				51830349286CBD6C00CE9361 /* UI */,
+				516A8D5D2875867900837B82 /* Utils */,
+				5183034C286D004400CE9361 /* Common */,
+				5183034A286CBD8300CE9361 /* Resources */,
+			);
+			path = "Discount Timer";
+			sourceTree = "<group>";
+		};
+		51E931F5287096E400FAA0DB /* TimerView */ = {
+			isa = PBXGroup;
+			children = (
+				51E931F3287096CF00FAA0DB /* TimerView.swift */,
+				51E931F62870971100FAA0DB /* TimerView.xib */,
+			);
+			path = TimerView;
+			sourceTree = "<group>";
+		};
+		51E931F828718C0D00FAA0DB /* AcceptedOfferPopup */ = {
+			isa = PBXGroup;
+			children = (
+				516A8D602875BB6700837B82 /* AcceptedOfferPopup.swift */,
+			);
+			path = AcceptedOfferPopup;
+			sourceTree = "<group>";
+		};
+		811DB0B6770353B01BA7B3E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54856ABE156DBAF9B6697F42 /* Pods-Discount Timer.debug.xcconfig */,
+				0C5F58451AC8E786F5BD8064 /* Pods-Discount Timer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51E29142286CB893000EAB7F /* Discount Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E29157286CB897000EAB7F /* Build configuration list for PBXNativeTarget "Discount Timer" */;
+			buildPhases = (
+				F00FB6DFA245C7034D14A222 /* [CP] Check Pods Manifest.lock */,
+				51E2913F286CB893000EAB7F /* Sources */,
+				51E29140286CB893000EAB7F /* Frameworks */,
+				51E29141286CB893000EAB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Discount Timer";
+			productName = "Discount Timer";
+			productReference = 51E29143286CB893000EAB7F /* Discount Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51E2913B286CB893000EAB7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					51E29142286CB893000EAB7F = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 51E2913E286CB893000EAB7F /* Build configuration list for PBXProject "Discount Timer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51E2913A286CB893000EAB7F;
+			productRefGroup = 51E29144286CB893000EAB7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51E29142286CB893000EAB7F /* Discount Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51E29141286CB893000EAB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E29153286CB897000EAB7F /* LaunchScreen.storyboard in Resources */,
+				51E29150286CB897000EAB7F /* Assets.xcassets in Resources */,
+				51E931F72870971100FAA0DB /* TimerView.xib in Resources */,
+				51E2914E286CB893000EAB7F /* DiscountOfferViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F00FB6DFA245C7034D14A222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Discount Timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E2913F286CB893000EAB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516A8D612875BB6700837B82 /* AcceptedOfferPopup.swift in Sources */,
+				51E931F4287096CF00FAA0DB /* TimerView.swift in Sources */,
+				51E2914B286CB893000EAB7F /* DiscountOfferViewController.swift in Sources */,
+				51E931F0286F11AD00FAA0DB /* DeviceSize.swift in Sources */,
+				51E29147286CB893000EAB7F /* AppDelegate.swift in Sources */,
+				51E29149286CB893000EAB7F /* SceneDelegate.swift in Sources */,
+				51985B6A2874D54B003795CD /* TimeConversion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51E2914C286CB893000EAB7F /* DiscountOfferViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E2914D286CB893000EAB7F /* Base */,
+			);
+			name = DiscountOfferViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		51E29151286CB897000EAB7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E29152286CB897000EAB7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51E29155286CB897000EAB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51E29156286CB897000EAB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51E29158286CB897000EAB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54856ABE156DBAF9B6697F42 /* Pods-Discount Timer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CJGS93RU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Discount Timer/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = DiscountOfferViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeRight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mvelich.Discount-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51E29159286CB897000EAB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5F58451AC8E786F5BD8064 /* Pods-Discount Timer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CJGS93RU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Discount Timer/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = DiscountOfferViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeRight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mvelich.Discount-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51E2913E286CB893000EAB7F /* Build configuration list for PBXProject "Discount Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E29155286CB897000EAB7F /* Debug */,
+				51E29156286CB897000EAB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E29157286CB897000EAB7F /* Build configuration list for PBXNativeTarget "Discount Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E29158286CB897000EAB7F /* Debug */,
+				51E29159286CB897000EAB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51E2913B286CB893000EAB7F /* Project object */;
+}
